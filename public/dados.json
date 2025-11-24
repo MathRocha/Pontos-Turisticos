@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nome": "Rio de Janeiro",
+    "descricao": "Rio de Janeiro, comunente referido como Rio, é um município brasileiro, capital do estado homônimo, situado no Sudeste do país. Um dos maiores destinos turísticos internacionais no Brasil, na América Latina e também do Hemisfério Sul. A capital fluminense é a cidade brasileira mais conhecida no exterior, funcionando como um 'espelho', ou 'retrato' nacional, seja positiva ou negativamente. É a segunda maior metrópole do Brasil (depois de São Paulo), a sétima maior da América e a décima oitava do mundo. Sua população segundo o censo de 2022 do IBGE era 6.211.223 habitantes. Tem o epíteto de Cidade Maravilhosa, e os que nela nascem são chamados cariocas.",
+    "foto": "src\\assets\\imgs\\rio_de_janeiro.jpg",
+    "pontosTuristicos": [
+      {
+        "id": 1,
+        "nome": "Corcovado - Cristo Redentor",
+        "descricao": "No topo do Morro do Corcovado, a 710 metros de altitude, o Cristo Redentor recebe você de braços abertos, sendo não só um dos ícones do Rio de Janeiro, mas também uma das Sete Maravilhas do Mundo Moderno. Inaugurado em 1931, o monumento de 30 metros de altura impressiona tanto pela grandiosidade quanto pela vista panorâmica deslumbrante da cidade e da natureza ao redor. O Cristo Redentor vai além de um cartão-postal: é um Santuário católico, aberto a todas as culturas e religiões, um lugar de paz, reflexão e acolhimento. A cada ano, mais de 3 milhões de visitantes se emocionam ao vivenciar esse símbolo universal de fé, esperança e fraternidade, reconhecido no mundo inteiro. Venha viver a experiência de estar sob os braços do Cristo Redentor. Sinta a energia desse lugar especial, onde a beleza natural do Rio encontra a espiritualidade, a cultura e o acolhimento. O Redentor te espera – sempre de braços abertos para o mundo!",
+        "fotos": [
+          "src\\assets\\imgs\\corcovado1.jpg",
+          "src\\assets\\imgs\\corcovado2.jpg",
+          "src\\assets\\imgs\\corcovado3.jpg"
+        ],
+        "aberto": false
+      },
+      {
+        "id": 2,
+        "nome": "Bondinho Pão de Açúcar",
+        "descricao": "Um dos mais belos pontos turísticos do Rio de Janeiro e um dos mais famosos do Brasil. Trabalhamos com a missão de transportar pessoas para um mundo de encantamento, lazer e entretenimento, gerando experiências felizes, inesquecíveis e que valorizem a cultura brasileira. Investimos constantemente em segurança, conforto e inovação. Somos um marco natural, geológico, histórico e turístico da cidade do Rio de Janeiro. Marco natural, por ser um referencial para os navegadores que vêm à Baía de Guanabara. Marco geológico, pois é um sítio geológico com datações precisas da história do planeta. Marco histórico, porque aos seus pés, Estácio de Sá, em 1º de março de 1565, fundou a Cidade de São Sebastião do Rio de Janeiro. E, marco turístico, porque a inauguração do teleférico do Pão de Açúcar projetou o nome do Brasil no exterior. Fomos o primeiro teleférico instalado no Brasil e o terceiro no mundo.",
+        "fotos": [
+          "src\\assets\\imgs\\pao_de_acucar1.jpg",
+          "src\\assets\\imgs\\pao_de_acucar2.jpg"
+        ],
+        "aberto": false
+      },
+      {
+        "id": 3,
+        "nome": "Museu do Amanhã",
+        "descricao": "O Museu do Amanhã é um novo tipo de museu de ciências onde você é convidado a examinar o passado, conhecer as transformações atuais e imaginar cenários possíveis para os próximos 50 anos, por meio de ambientes audiovisuais imersivos, instalações interativas e jogos disponíveis ao público em português, inglês e espanhol. O museu é um espaço de aceleração de ideias com atividades educativas, um Laboratório de experiências em inovação, um Observatório e serviços para o público: cafeteria, restaurante e loja.",
+        "fotos": [
+          "src\\assets\\imgs\\museu_do_amanha1.jpg",
+          "src\\assets\\imgs\\museu_do_amanha2.jpg",
+          "src\\assets\\imgs\\museu_do_amanha3.jpg"
+        ],
+        "aberto": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Cidade 2",
+    "descricao": "TODO",
+    "foto": null,
+    "pontosTuristicos": []
+  },
+  {
+    "id": 3,
+    "nome": "Cidade 3",
+    "descricao": "TODO",
+    "foto": null,
+    "pontosTuristicos": []
+  }
+]
