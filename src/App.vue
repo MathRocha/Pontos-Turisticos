@@ -12,10 +12,7 @@ fetch("/dados.json")
     selecionarCidade(data[0].id);
   });
 
-const selecionarCidade = (cidadeId) =>
-  (cidadeSelecionada.value = cidades.value.find(
-    (cidade) => cidade.id === cidadeId
-  ));
+const selecionarCidade = (cidadeId) => (cidadeSelecionada.value = cidadeId);
 </script>
 
 <template>
@@ -24,7 +21,7 @@ const selecionarCidade = (cidadeId) =>
       <a
         v-for="cidade in cidades"
         class="selecao-ponto-turistico"
-        :class="{ selecionada: cidadeSelecionada.id === cidade.id }"
+        :class="{ selecionada: cidadeSelecionada === cidade.id }"
         @click="selecionarCidade(cidade.id)"
       >
         {{ cidade.nome }}
@@ -33,7 +30,9 @@ const selecionarCidade = (cidadeId) =>
   </header>
 
   <main>
-    <Cidade v-if="cidadeSelecionada" :cidade="cidadeSelecionada" />
+    <div v-for="cidade in cidades">
+      <Cidade v-if="cidadeSelecionada === cidade.id" :cidade="cidade" />
+    </div>
   </main>
 </template>
 
