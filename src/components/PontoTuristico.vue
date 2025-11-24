@@ -21,7 +21,7 @@ let indexFoto = ref(0);
 
   <div v-if="pontoTuristico.fotos && pontoTuristico.fotos.length > 0" class="galeria-fotos">
     <button @click="indexFoto--" :disabled="indexFoto === 0">◄</button>
-    <img :src="pontoTuristico.fotos[indexFoto]" :alt="'Foto de ' + pontoTuristico.nome" width="100%"></img>
+    <img :src="pontoTuristico.fotos[indexFoto]" :alt="'Foto de ' + pontoTuristico.nome" height="500px"></img>
     <button @click="indexFoto++" :disabled="indexFoto === pontoTuristico.fotos.length - 1">►</button>
   </div>
 </div>
@@ -51,12 +51,15 @@ let indexFoto = ref(0);
 
 .galeria-fotos {
   display: flex;
+  width: 100%;
 }
 
 .galeria-fotos button {
   background-color: black;
   color: white;
   border: none;
+  flex-grow: 1;
+  font-size: 2em;
 }
 
 .galeria-fotos button:disabled {

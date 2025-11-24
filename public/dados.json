@@ -41,16 +41,83 @@
   },
   {
     "id": 2,
-    "nome": "Cidade 2",
-    "descricao": "TODO",
-    "foto": null,
-    "pontosTuristicos": []
+    "nome": "Tóquio",
+    "descricao": "Tóquio, oficialmente Metrópole de Tóquio, é a capital do Japão e uma das 47 prefeituras do país. Situa-se em Honshu, a maior ilha do arquipélago. Em 2015, Tóquio possuía mais de 13,4 milhões de habitantes, cerca de 11% da população do país, e a Região Metropolitana de Tóquio possui mais de 37 milhões de habitantes, o que torna a aglomeração de Tóquio como a área urbana mais populosa do mundo. Tornou-se a capital do Império em 1868 com a atual designação.",
+    "foto": "src\\assets\\imgs\\toquio.png",
+    "pontosTuristicos": [
+      {
+        "id": 1,
+        "nome": "Tokyo Skytree",
+        "descricao": "A Tokyo Skytree é uma torre de radiodifusão em Sumida, Tóquio, Japão. Inicialmente a torre deveria ter 610 metros de altura, mas o projeto foi alterado e ela passou a ter 634 metros de altura, tornando-se a mais alta estrutura do Japão e segunda maior do mundo, atrás somente do arranha-céu Burj Khalifa, que tem 828 metros de altura e se situa nos Emirados Árabes Unidos. Além disso, é a mais alta torre do mundo. O planejamento foi liderado pelo Tobu Railway e um grupo de seis estações de radiodifusão terrestre, chefiada pela emissora pública NHK, que finalizou a torre no dia 29 de fevereiro de 2012. A torre foi aberta ao público em 22 de maio de 2012. O custo da obra chegou a 65 bilhões de ienes, ou 806 milhões de dólares.",
+        "fotos": [
+          "src\\assets\\imgs\\tokyo_skytree1.jpg",
+          "src\\assets\\imgs\\tokyo_skytree2.jpg",
+          "src\\assets\\imgs\\tokyo_skytree3.jpg"
+        ],
+        "aberto": false
+      },
+      {
+        "id": 2,
+        "nome": "Sensō-ji",
+        "descricao": "Sensō-ji, também conhecido como Asakusa Kannon, é um antigo templo budista em Asakusa, Tóquio, Japão. É o templo mais antigo de Tóquio e um dos mais importantes. É dedicado a Kannon, o bodisatva da compaixão. As estruturas do complexo do templo incluem o salão principal, um pagode de cinco andares e grandes portões. É o local religioso mais visitado do mundo, com mais de 30 milhões de visitantes anualmente. O templo é a 13ª parada na rota de peregrinação Bandō Sanjūsankasho.",
+        "fotos": [
+          "src\\assets\\imgs\\senso-ji1.jpg",
+          "src\\assets\\imgs\\senso-ji2.jpg",
+          "src\\assets\\imgs\\senso-ji3.jpg"
+        ],
+        "aberto": false
+      },
+      {
+        "id": 3,
+        "nome": "Cruzamento de Shibuya",
+        "descricao": "Cruzamento de Shibuya é uma travessia de pedestres no bairro de Shibuya, em Tóquio, Japão. Localiza-se em frente à saída Hachikō da Estação de Shibuya e interrompe o tráfego de veículos em todas as direções para permitir que os pedestres ocupem completamente o cruzamento. A estátua de Hachikō, situada entre a estação e a avenida, é um ponto de encontro — e quase sempre lotado. Três grandes telas de vídeo montadas em edifícios, como o famoso QFRONT, dominam a vista da travessia, juntamente com diversas placas de propaganda estática. Devido ao seu intenso movimento e à abundância de publicidade, o local é frequentemente comparado à Times Square, em Nova Iorque. A travessia de pedestres de Shibuya é considerada a mais movimentada do mundo, com até três mil pessoas atravessando simultaneamente.",
+        "fotos": [
+          "src\\assets\\imgs\\shibuya1.jpg",
+          "src\\assets\\imgs\\shibuya2.jpg",
+          "src\\assets\\imgs\\shibuya3.jpg"
+        ],
+        "aberto": false
+      }
+    ]
   },
   {
     "id": 3,
-    "nome": "Cidade 3",
-    "descricao": "TODO",
-    "foto": null,
-    "pontosTuristicos": []
+    "nome": "Atenas",
+    "descricao": "Atenas é a capital e a maior cidade da Grécia. A cidade domina a região da Ática e é uma das cidades mais antigas do mundo, sendo que seu território está continuamente habitado há 3.400 anos. A Atenas Clássica, do período da Grécia Antiga, foi uma poderosa pólis (cidade-Estado) que surgiu em conjunto com o desenvolvimento do porto de Pireu. Um centro artístico, estudantil e filosófico desde a Antiguidade, a cidade sediou a Academia de Platão e o Liceu de Aristóteles, além de ser amplamente considerada como o berço da civilização ocidental e da democracia, em grande parte devido ao impacto de suas realizações culturais e políticas durante os séculos IV e V a.C. no resto do continente europeu. Atualmente, é uma metrópole cosmopolita e o centro econômico, financeiro, industrial, político e cultural da Grécia. Em 2012, Atenas foi classificada como a 39ª cidade mais rica do mundo por paridade do poder de compra (PPC) e a 77ª mais cara em um estudo do UBS AG. ",
+    "foto": "src\\assets\\imgs\\atenas.jpg",
+    "pontosTuristicos": [
+      {
+        "id": 1,
+        "nome": "Acrópole de Atenas",
+        "descricao": "A Acrópole de Atenas é a mais conhecida e importante acrópole grega. Embora existam muitas outras acrópoles na Grécia, o significado da Acrópole de Atenas é tal que é comumente conhecida como A Acrópole, sem qualificação. A Acrópole era, literalmente, a 'cidade alta' e estava presente na maioria das cidades gregas, com dupla função: como proteção contra invasores de cidades inimigas, e quase sempre eram cercadas por muralhas, e como sedes administrativas civis ou religiosas. É uma colina rochosa de topo plano que se ergue a cerca 165 metros acima do nível da cidade, em Atenas, capital da Grécia. Também é conhecida como Cecropia em homenagem ao lendário homem-cobra, Cecrops, rei de Atenas.",
+        "fotos": [
+          "src\\assets\\imgs\\acropole1.jpg",
+          "src\\assets\\imgs\\acropole2.jpg",
+          "src\\assets\\imgs\\acropole3.jpg"
+        ],
+        "aberto": false
+      },
+      {
+        "id": 2,
+        "nome": "Partenon",
+        "descricao": "O Partenon foi um templo dedicado à deusa grega Atena, construído no século V a.C. na Acrópole de Atenas, na Grécia Antiga, por iniciativa de Péricles, governante da cidade, projetado pelos arquitetos Calícrates e Ictinos e decorado em sua maior parte pela oficina do escultor Fídias, que também executou a estátua criselefantina (feita de marfim e ouro) da deusa patrona da cidade, Atena Partenos, presente no interior do templo naquela época. O Partenon é o mais conhecido dos edifícios remanescentes da Grécia Antiga e foi ornado com o melhor da arquitetura grega. Suas esculturas decorativas são consideradas um dos pontos altos da arte grega. O Partenon é um símbolo duradouro da Grécia e da democracia, e é visto como um dos maiores monumentos culturais da história da humanidade. O nome Partenon deriva da estátua de Atena Partenos.",
+        "fotos": [
+          "src\\assets\\imgs\\partenon1.jpg",
+          "src\\assets\\imgs\\partenon2.jpg"
+        ],
+        "aberto": false
+      },
+      {
+        "id": 4,
+        "nome": "Odeão de Herodes Ático",
+        "descricao": "O Odeão de Herodes Ático é um antigo teatro localizado na vertente sul da Acrópole de Atenas, na Grécia. Foi construído por Herodes Ático, de importante família ateniense, para comemorar a memória de sua falecida esposa Regilia. As obras começaram possivelmente em torno de 174. Quando intacto, o Odeão era uma estrutura coberta e podia receber até 5 mil espectadores. O vão da plateia (koilo) tem 76 m de diâmetro e foi escavado na rocha da colina. Os assentos eram de mármore branco, divididos em duas seções por um corredor. A orquestra tem 19 m de diâmetro e o cenário, de três níveis, chegava a 28 m de altura, com diversas prótases (pórticos em projeção) com colunas, e nichos para estatuária, sendo ladeado por escadarias, e com uma galeria (metaskenio) voltada para o exterior, revestida de mosaicos, detalhe repetido na decoração das entradas. A construção do teatro foi muito custosa, tanto pelos materiais nobres, como o mármore e o cedro, quanto pelas técnicas construtivas avançadas empregadas na cobertura, de 38 m de diâmetro, que não tinha fixação interna, algo raro mesmo nos dias de hoje. Na invasão dos hérulos de 267, o teatro foi arrasado e jamais foi restaurado. Mais tarde sua estrutura foi incorporada às muralhas de Atenas. Com o passar dos séculos suas partes inferiores foram cobertas de entulho, o que fez com que o viajante italiano Niccolo da Martini imaginasse que se tratava de uma ponte. No século XIX, foram iniciadas escavações, removendo toneladas de terra; uma restauração foi levada a cabo nos anos 50 e, desde 1957, voltou a ser usado para apresentações e festivais.",
+        "fotos": [
+          "src\\assets\\imgs\\odeao_herodes_atico1.jpg",
+          "src\\assets\\imgs\\odeao_herodes_atico2.jpg",
+          "src\\assets\\imgs\\odeao_herodes_atico3.jpg"
+        ],
+        "aberto": false
+      }
+    ]
   }
 ]

@@ -5,10 +5,10 @@ import PontoTuristico from "./PontoTuristico.vue";
 
 <template>
   <div id="cidade-container">
-    <img v-if="cidade.foto" :src="cidade.foto" :alt="'Badeira da cidade ' + cidade.nome" width="100%"></img>
+    <img v-if="cidade.foto" :src="cidade.foto" width="100%"></img>
 
     <div>
-      <h1>{{ cidade.nome }}</h1>
+      <h1 id="cidade-titulo">{{ cidade.nome }}</h1>
       <p>{{ cidade.descricao }}</p>
     </div>
   </div>
@@ -23,6 +23,10 @@ import PontoTuristico from "./PontoTuristico.vue";
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 1em;
+}
+
+#cidade-titulo {
+  margin-top: 0;
 }
 
 .ponto-turistico {
